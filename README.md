@@ -24,8 +24,8 @@ prometheus/prometheus,2.2.0
 ```
 and it should produce output to stdout in the format of:
 ```
-latest versions of kubernetes/kubernetes: [1.10.1 1.9.6 1.8.11]
-latest versions of prometheus/prometheus: [2.2.1]
+latest versions of kubernetes/kubernetes: [1.13.4 1.12.6 1.11.8 1.10.13 1.9.11 1.8.15]
+latest versions of prometheus/prometheus: [2.7.2 2.6.1 2.5.0 2.4.3 2.3.2 2.2.1]
 ```
 
 In this repository you will find two go files, one main.go which contains a skeleton for you to start developing your application, and one main_test.go, which contains some test cases that should pass when the application is ready. You run the tests by writing `go test`, and there are some cases that aren't tested for - can you figure them out?
